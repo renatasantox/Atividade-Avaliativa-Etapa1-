@@ -349,10 +349,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nome: Raul
-  forca_ataque: 0
-  forca_do_pulo: 0
-  energia: 0
-  velocidade: 0
+  forca_ataque: 15
+  forca_do_pulo: 7
+  energia: 12
+  velocidade: 10
 --- !u!1 &196418622
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,12 +477,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nome: Dex
-  forca_ataque: 0
-  forca_do_pulo: 0
-  energia: 0
-  velocidade: 0
+  forca_ataque: 13
+  forca_do_pulo: 8
+  energia: 10
+  velocidade: 11
   habilidadeEspecial: Contrato de Sangue
-  arma: 
+  arma: AK-47
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0

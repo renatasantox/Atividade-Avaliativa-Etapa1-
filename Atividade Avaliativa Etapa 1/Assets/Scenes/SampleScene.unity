@@ -239,6 +239,7 @@ GameObject:
   - component: {fileID: 190762643}
   - component: {fileID: 190762642}
   - component: {fileID: 190762641}
+  - component: {fileID: 190762645}
   m_Layer: 0
   m_Name: Personagem
   m_TagString: Untagged
@@ -335,6 +336,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &190762645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190762640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf3c79a4ef7c78544b3546b67c172403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nome: Raul
+  forca_ataque: 0
+  forca_do_pulo: 0
+  energia: 0
+  velocidade: 0
 --- !u!1 &196418622
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,6 +365,7 @@ GameObject:
   - component: {fileID: 196418625}
   - component: {fileID: 196418624}
   - component: {fileID: 196418623}
+  - component: {fileID: 196418627}
   m_Layer: 0
   m_Name: "Mercen\xE1rio"
   m_TagString: Untagged
@@ -445,6 +464,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &196418627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196418622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fab76ffe305cf849a3a2292b8b5e6a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nome: Dex
+  forca_ataque: 0
+  forca_do_pulo: 0
+  energia: 0
+  velocidade: 0
+  habilidadeEspecial: Contrato de Sangue
+  arma: 
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -761,6 +799,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1669549723}
+  - component: {fileID: 1669549724}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -783,6 +822,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1669549724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669549722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e34c984c8c91d06449817e895e13dcdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

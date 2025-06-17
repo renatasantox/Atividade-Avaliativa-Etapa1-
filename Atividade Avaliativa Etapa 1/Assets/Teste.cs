@@ -3,7 +3,7 @@ using UnityEngine;
 public class Teste : MonoBehaviour
 {
     Personagem Raul = new Personagem();
-    Mercenário Dex = new Mercenário();
+    Mercenario Dex = new Mercenario();
     void Start()
     {
         Raul.AtribuirNome("Raul");
@@ -18,9 +18,19 @@ public class Teste : MonoBehaviour
         Dex.AtribuirEnergia(10);
         Dex.AtribuirVelocidade(11);
         Dex.UsarContratoDeSangue(Raul);
-    }
+        
+        Dex.UsarContratoDeSangue(Raul);
 
-    // Update is called once per frame
+        if (Raul.Energia() <= 0)
+        {
+            Debug.Log("O " + Raul.Nome() + " ficou sem energia");
+        }
+        else
+        {
+            Debug.Log("O " + Raul.Nome() + " ainda tem "+ Raul.Energia() + "energia");
+        }    
+    }
+    
     void Update()
     {
         

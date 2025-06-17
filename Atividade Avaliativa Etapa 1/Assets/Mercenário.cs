@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class Mercenário : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public string HabilidadeEspecial;
+    public string arma;
     void Start()
     {
         
